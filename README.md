@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Izak Vasconcelos Pinheiro — AI & Machine Learning Engineering Portfolio
 
-## Getting Started
+Bilingual (EN/PT) personal portfolio web application showcasing production-grade projects and research in Artificial Intelligence, Computer Vision, Retrieval-Augmented Generation (RAG), and Full-Stack Software Engineering.
 
-First, run the development server:
+## Tech Stack & Architecture
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* **Framework:** Next.js (App Router)
+* **Language:** TypeScript
+* **Styling & UI:** Tailwind CSS, Lucide Icons, Dynamic OpenGraph Favicon (`next/og`)
+* **Internationalization:** Instant client-side EN / PT language toggle
+* **Deployment:** Vercel CI/CD
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Featured Engineering & Research Projects
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* **Enterprise RAG Knowledge Base:** End-to-end RAG pipeline with Python, LangChain, Supabase (`pgvector`), Google Gemini embeddings (768-d), and Streamlit with exact page citations.
+* **AI Incident & Triage Engine:** Full-stack Next.js and TypeScript platform using Google Gemini Structured Outputs (`responseSchema`), fault-tolerant model routing, and MongoDB Atlas (NoSQL).
+* **Real-Time Computer Vision Microservice:** Containerized REST API built with FastAPI, Ultralytics YOLOv8 Nano, OpenCV Headless, Pydantic, and Docker for low-latency CPU object detection.
+* **Clinical Breast Cancer Pre-Diagnosis System (GRVA-UFU):** Medical imaging AI combining YOLOv8 mammography analysis with Scikit-Learn Decision Tree ensembles (86% accuracy).
+* **Full-Stack IT Service Desk & Asset Management:** Multi-platform help desk ecosystem built with Next.js, React Native (Expo), Supabase PostgreSQL, and PowerShell automation.
+* **Biometric Multi-Face Recognition & Campus AI Automation:** Real-time video identity verification using OpenCV, Haar Cascades, and LBPH alongside an automated visitor system powered by Gemini API.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Running Locally
 
-## Learn More
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Open `http://localhost:3000` in your browser.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contact
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* **Email:** izak.v.pinheiro2005@gmail.com
+* **LinkedIn:** [linkedin.com/in/izak-pinheiro-a778b425a](https://linkedin.com/in/izak-pinheiro-a778b425a)
+* **GitHub:** [github.com/izak1404](https://github.com/izak1404)
